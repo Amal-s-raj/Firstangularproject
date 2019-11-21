@@ -1,28 +1,10 @@
-<h2>Check List</h2>
 
+<div class="banner">
+    <div class="app-text">
+        <h2 class="app-text">Welcome to Fonezone 55 moore St, one of the leading mobile Phones shop in Dublin.<br>
+            Which allows us to offer most updated unlocked SIM FREE mobile phones at the lowest possible prices.<br>
+            Today we do more than ever to help you find what's perfect for you and always get the most out of it.<br>
+            We offer phones and accessories from all leading brands.'</h2>
 
-<div *ngFor="let product of products">
-
-        <title><img src="store" alt=""></title>
-
-    <h3>
-        <a [title]="product.name + ' details'">
-            {{ product.name }}
-        </a>
-    </h3>
-    
-
-    <p *ngIf="product.description">
-        Description: {{ product.description }}
-    </p>
-    <button (click)="button()">
-        Buy
-    </button>
-    
+    </div>
 </div>
-
-<!-- 
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
--->
